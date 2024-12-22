@@ -139,11 +139,6 @@
 2024-12-21 ERROR minor Service not available
 2024-12-21 INFO Maintenance completed
 2024-12-21 ERROR critical Application crash
-2024-12-21 INFO Backup failed
-2024-12-21 ERROR minor Software conflict
-2024-12-21 ERROR critical File system corruption
-2024-12-21 INFO Server shutdown
-2024-12-21 ERROR minor File read error
 2024-12-21 ERROR critical Service timeout
 2024-12-21 INFO Log rotation completed
 2024-12-21 ERROR minor Disk fragmentation
@@ -161,11 +156,6 @@
 2024-12-22 ERROR minor File not found
 2024-12-22 ERROR critical Network issue
 2024-12-22 ERROR critical Disk error
-2024-12-22 INFO User logged in
-2024-12-22 INFO Backup completed successfully
-2024-12-22 ERROR critical CPU overload
-2024-12-22 INFO System check completed
-2024-12-22 ERROR minor Service crash
 2024-12-22 INFO Security patch installed
 2024-12-22 ERROR critical Application freeze
 2024-12-22 INFO Database Disk error
@@ -181,10 +171,6 @@
 2024-12-22 WARNING High CPU usage
 2024-12-22 INFO System status report generated
 2024-12-22 ERROR critical Memory leak
-2024-12-22 INFO User login successful
-2024-12-22 ERROR minor Server overload
-2024-12-22 ERROR critical Disk write failure
-2024-12-22 INFO Maintenance started
 2024-12-22 ERROR minor File system error
 2024-12-22 INFO Backup scheduled
 2024-12-22 ERROR critical Network breach
