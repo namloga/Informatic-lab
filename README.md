@@ -1,4 +1,5 @@
 # Лабораторная работа
+
 ### ФИО: Нгуен Динь Нам - К3140
 
 ---
@@ -70,13 +71,13 @@ Error found again.
 - Сначала нужно клонировать репозиторий, содержащий файл syslogs.txt
 
 ```
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/namloga/Informatic-lab
 ```
 
 2. После завершения клонирования перейдите в директорию репозитория:
 
 ```
-cd repository-name
+cd Informatic-lab
 ```
 
 3. Скопируйте файл `syslogs.txt` в рабочую папку с помощью команды `cp`.
