@@ -23,7 +23,7 @@ echo -e "Logs:\nNo errors.\nError found again.\nPermissions updated." > file3.tx
 2. Создайте новый файл с именем `script.bash`:
 
 ```
-    touch script.txt
+    touch script.bash
 ```
 
 3. Откройте созданный файл `script.bash` для редактирования.
@@ -45,7 +45,9 @@ do
 done
 
 ```
-
+- Просмотреть все файлы с расширением txt в текущем каталоге.
+- Используйте команду `echo` для вывода текущего просматриваемого файла и команду `grep` для поиска «error» в этом файле.
+- Параметр `-i` в grep используется для поиска строк в файле независимо от регистра.
 5. Сохраните файл. Закройте текстовый редактор `gedit`. Запустите bash-скрипт, выполнив в терминале
 
 ```
@@ -107,4 +109,5 @@ _Файл `syslogs.txt` содержит информацию об ***ошибк
 4. [Учебник по date.](https://losst.pro/komanda-date-v-linux)
 5. [Проверка условий.](https://se.ifmo.ru/~ad/Documentation/ABS_Guide_ru.html#TESTS)
 6. [Циклы.](https://se.ifmo.ru/~ad/Documentation/ABS_Guide_ru.html#LOOPS1)
-7. stackoverflow.com
+7. [Использование трубы](https://www.geeksforgeeks.org/piping-in-unix-or-linux/)
+8. stackoverflow.com
