@@ -2,11 +2,13 @@
 
 ### ФИО: Нгуен Динь Нам - К3140
 
+### Тема: Команда grep
+
 ---
 
 Для решения понадобится установить VirtualBox или другие аналоги.
 
-Команда `grep` в Linux (сокращение от Global Regular Expression Print) — это утилита, предназначенная для поиска заданного шаблона или регулярного выражения в текстовых файлах и вывода всех строк, в которых был найден соответствующий фрагмент.
+Команда `grep` в Linux (**_Global Regular Expression Print_**) — это утилита, предназначенная для поиска заданного шаблона или регулярного выражения в текстовых файлах и вывода всех строк, в которых был найден соответствующий фрагмент.
 
 ## Разминка
 
@@ -82,19 +84,27 @@ cd Informatic-lab
 
 3. Скопируйте файл `syslogs.txt` в рабочую папку с помощью команды `cp`.
 
-Необходимо провести анализ системного журнала, который содержит информацию об ошибках и важных событиях. После анализа нужно выполнить несколько автоматических действий:
+```
+cp syslogs.txt /PATH/
+```
 
-- Посчитать количество ошибок в дни 21 и 22. (Записать в файл `error_count_report.txt`)
+\*Файл `syslogs.txt` содержит информацию об **_ошибках_** и **_важных событиях_** с 20 по 23 декабря 2024 г.\*
 
-- Предупреждение, если ошибка "Disk error" возникает более 3 раз в течение одного дня.
+<br>
+Необходимо проанализировать системный журнал, содержащий информацию об ошибках и важных событиях в файле <code>syslogs.txt</code>. После анализа нужно выполнить несколько автоматических действий:
 
+<br>
+
+- Подсчитайте количество ошибок (WARNING, ERROR) за день.
+- Вывести дни, в которых **_Disk error_** возникала 3 или более раз с 20 по 23 декабря 2024 г.
 - Создание отчета с статистикой ошибок и событий по уровню важности (INFO, WARNING, ERROR). (Записать в файл `log_report.txt`)
 
 ## Дополнительные источники
 
 1. [man-страница для команды grep.](https://man7.org/linux/man-pages/man1/grep.1.html)
 2. [Использование grep в блоках кода и параметрах grep.](https://se.ifmo.ru/~ad/Documentation/ABS_Guide_ru.html#GREPREF)
-3. [Учебник по awk.](https://www.geeksforgeeks.org/awk-command-unixlinux-examples/)
-4. [Проверка условий.](https://se.ifmo.ru/~ad/Documentation/ABS_Guide_ru.html#TESTS)
-5. [Циклы.](https://se.ifmo.ru/~ad/Documentation/ABS_Guide_ru.html#LOOPS1)
-6. stackoverflow.com
+3. [Учебник по uniq.](https://losst.pro/komanda-uniq-linux)
+4. [Учебник по date.](https://losst.pro/komanda-date-v-linux)
+5. [Проверка условий.](https://se.ifmo.ru/~ad/Documentation/ABS_Guide_ru.html#TESTS)
+6. [Циклы.](https://se.ifmo.ru/~ad/Documentation/ABS_Guide_ru.html#LOOPS1)
+7. stackoverflow.com
